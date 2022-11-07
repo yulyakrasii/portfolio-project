@@ -1,5 +1,12 @@
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
 }
 h2 {
   font-family: "Poppins", sans-serif;
@@ -33,6 +40,25 @@ h2 {
   font-weight: 400px;
   color: #272142;
   line-height: 27px;
+}
+.about-section {
+  padding: 110px 20px;
+}
+#about-hello {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+  line-height: 85px;
+  font-weight: bold;
+}
+#frontend-about {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: 700;
+}
+#about-paragraph {
+  font-size: 16px;
+  font-family: var(--default-font-family);
+  color: #272142b2;
 }
 
 .container h2 {
@@ -83,5 +109,8 @@ img {
   }
   .container h2 {
     font-size: 20px;
+  }
+  .about-section {
+    text-align: center;
   }
 }
