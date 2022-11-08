@@ -7,9 +7,15 @@
 
 h1 {
   font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 h2 {
   font-family: "Poppins", sans-serif;
+}
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 1.5;
 }
 #hero {
   text-align: center;
@@ -41,7 +47,7 @@ h2 {
   color: #272142;
   line-height: 27px;
 }
-.about-section {
+.content-container {
   padding: 110px 20px;
 }
 #about-hello {
@@ -74,6 +80,9 @@ h2 {
   line-height: 30px;
   font-weight: 400px;
 }
+.content {
+  margin: 30px;
+}
 
 .btn-branding {
   background-color: #6c63ff;
@@ -101,9 +110,6 @@ img {
 }
 
 @media (max-width: 900px) {
-  img {
-    display: none;
-  }
   #hero h1 {
     font-size: 45px;
   }
@@ -111,6 +117,9 @@ img {
     font-size: 20px;
   }
   .about-section {
+    text-align: center;
+  }
+  .content {
     text-align: center;
   }
 }
