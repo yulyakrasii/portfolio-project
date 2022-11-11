@@ -42,6 +42,7 @@ nav ul {
 nav a {
   text-decoration: none;
   color: #272142;
+  font-family: var(--default-font-family);
 }
 
 nav li.active a {
@@ -140,22 +141,22 @@ nav a:hover {
   font-family: "Poppins", sans-serif;
 }
 
-img {
+.project-image {
+  width: 560px;
+  height: 560px;
+}
+
+#profile-photo {
   width: 560px;
   height: 560px;
 }
 
 @media (max-width: 900px) {
-  #hero h1 {
-    font-size: 45px;
+  #hero {
+    padding: 80px 20px;
   }
-  .container h2 {
-    font-size: 20px;
-  }
-  .about-section {
-    text-align: center;
-  }
-  .content {
+  .project-description {
+    padding: 0;
     text-align: center;
   }
 }
