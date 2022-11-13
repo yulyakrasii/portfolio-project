@@ -152,10 +152,7 @@ nav a:hover {
   height: 560px;
 }
 
-#profile-photo {
-  width: 560px;
-  height: 560px;
-}
+
 
 footer .email-link {
   text-decoration: none;
@@ -195,6 +192,7 @@ footer .contact-box {
   color: #6c63ff;
 }
 
+
 @media (max-width: 900px) {
   #hero {
     padding: 80px 20px;
@@ -202,5 +200,8 @@ footer .contact-box {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .portfolio-pic {
+    margin-top: 25px;
   }
 }
