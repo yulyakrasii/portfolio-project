@@ -190,6 +190,11 @@ footer .contact-box {
   border-radius: 10px;
 }
 
+.social-contact {
+  font-family: var(--default-font-family);
+  color: #6c63ff;
+}
+
 @media (max-width: 900px) {
   #hero {
     padding: 80px 20px;

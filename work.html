@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Yuliia's work</title>
+    <meta name="desciption" content="This is a website portfolio of a Frontend Developer Yuliia Krasii">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,73 +18,133 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/609b72f518.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/styles/styles.css" />
   </head>
   <body>
     <div class="container mt-2">
-    <nav class="d-flex justify-content-between">
-      <img src="images/logo.png" class="logo d-none d-md-block" alt="logo" />
-      <img
-        src="images/logo-small.jpg"
-        class="logo d-block d-md-none"
-        alt="logo"
-      />
-      <ul>
-        <li >
-          <a href="/index.html" title="homepage">Home</a>
-        </li>
-        <li>
-          <a href="/about.html" title="about Yuliia">About</a>
-        </li>
-        <li class="active"><a href="/work.html" title="Yuliia's work">Work</a></li>
-        <li><a href="/contact.html" title="Contact Yuliia">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="content-container container">
-      <div class="content">
-        <h1 class="mb-5">Take a look at what I've been working on!</h1>
-        <div class="row">
-          <div class="col-md-6 mb-4">
-            <img
-              src="images/yogurt.png"
-              class="img-fluid mb-3 rounded"
-              alt="yogurt project"
-            />
-            <h3 class="text-center m-0">Yogurt Project</h3>
-            <p class="text-center text-muted">Built with HTML and CSS</p>
-          </div>
-          <div class="col-md-6 mb-4">
-            <img
-              src="images/weather.png"
-              class="img-fluid mb-3 rounded"
-              alt="yogurt project"
-            />
-            <h3 class="text-center m-0">Weather Project</h3>
-            <p class="text-center text-muted">
-              Built with HTML, CSS and JavaScript
-            </p>
-          </div>
-          <div class="col-md-6 mb-4">
-            <img
-              src="images/dictionary.png"
-              class="img-fluid mb-3 rounded"
-              alt="yogurt project"
-            />
-            <h3 class="text-center m-0">Dictionary Project</h3>
-            <p class="text-center text-muted">Built with HTML, CSS and React</p>
-          </div>
-          <div class="col-md-6 mb-4">
-            <img
-              src="images/translation.png"
-              class="img-fluid mb-3 rounded"
-              alt="yogurt project"
-            />
-            <h3 class="text-center m-0">Translation Project</h3>
-            <p class="text-center text-muted">Built with HTML, CSS and React</p>
+      <nav class="d-flex justify-content-between">
+        <img src="images/logo.png" class="logo d-none d-md-block" alt="logo" />
+        <img
+          src="images/logo-small.jpg"
+          class="logo d-block d-md-none"
+          alt="logo"
+        />
+        <ul>
+          <li>
+            <a href="/index.html" title="homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="about Yuliia">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Yuliia's work">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Yuliia">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="content-container container">
+        <div class="content">
+          <h1 class="mb-5">Take a look at what I've been working on!</h1>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <img
+                src="images/yogurt.png"
+                class="img-fluid mb-3 rounded"
+                alt="yogurt project"
+              />
+              <h3 class="text-center m-0">Yogurt Project</h3>
+              <p class="text-center text-muted">Built with HTML and CSS</p>
+            </div>
+            <div class="col-md-6 mb-4">
+              <img
+                src="images/weather.png"
+                class="img-fluid mb-3 rounded"
+                alt="yogurt project"
+              />
+              <h3 class="text-center m-0">Weather Project</h3>
+              <p class="text-center text-muted">
+                Built with HTML, CSS and JavaScript
+              </p>
+            </div>
+            <div class="col-md-6 mb-4">
+              <img
+                src="images/dictionary.png"
+                class="img-fluid mb-3 rounded"
+                alt="yogurt project"
+              />
+              <h3 class="text-center m-0">Dictionary Project</h3>
+              <p class="text-center text-muted">
+                Built with HTML, CSS and React
+              </p>
+            </div>
+            <div class="col-md-6 mb-4">
+              <img
+                src="images/translation.png"
+                class="img-fluid mb-3 rounded"
+                alt="yogurt project"
+              />
+              <h3 class="text-center m-0">Translation Project</h3>
+              <p class="text-center text-muted">
+                Built with HTML, CSS and React
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="contact Yuliia"
+              >Contact me</a
+            >
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:yulyakrasii@gmail.com" class="email-link"
+            >yulyakrasii@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.instagram.com/pumpkinpie.x"
+            title="instagram profile"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/pumpkinpie.x"
+            title="facebook profile"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.github.com/pumpkinpie.x"
+            title="github profile"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center">
+          This project was coded by Yuliia Krasii and is
+          <a href="https://github.com/yulyakrasii/portfolio-project">
+            open-sourced
+          </a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
